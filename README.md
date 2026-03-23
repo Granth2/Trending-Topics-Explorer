@@ -11,6 +11,10 @@ Trending Topics Explorer is a web application that allows users to explore popul
 
 ## API Used
 GitHub API
+news API
+https://gnews.io/api/v4/top-headlines?lang=en&token=YOUR_API_KEY
+reddit API
+https://www.reddit.com/r/all/top.json?limit=20
 
 ## Technologies Used
 - HTML
