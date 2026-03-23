@@ -1,21 +1,18 @@
-# Movie Explorer App 
+# Trending Topics Explorer 🚀
 
+Trending Topics Explorer is a web application that allows users to explore popular and trending GitHub repositories in real time using a public API.
 
-Movie Explorer is a web application that allows users to search and explore movies using a public API.
-
-##  Features
-- Search movies by name
-- Display movie details
-- Filter and sort results
+## Features
+- Search repositories by name
+- Display repository details (name, stars, language)
+- Filter repositories by programming language
+- Sort repositories by stars
 - Responsive design
 
-##  API Used
-OMDB API
+## API Used
+GitHub API
 
-##  Technologies Used
+## Technologies Used
 - HTML
 - CSS
-- JavaScript
-
-##  Setup Instructions
-Open index.html in browser
+- JavaScript (Fetch API)
