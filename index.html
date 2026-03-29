@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trending Topics Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Trending Topics Explorer</h1>
+
+  <div class="controls">
+    <select id="source">
+      <option value="github">GitHub</option>
+      <option value="news">News</option>
+    </select>
+
+    <button onclick="loadData()">Load Trending</button>
+    <button onclick="sortData()">Sort by Popularity</button>
+  </div>
+
+  <div id="loading">Loading...</div>
+  <div id="container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
