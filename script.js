@@ -19,7 +19,7 @@ async function loadData() {
   loading.style.display = "none";
 }
 
-// ----------- GITHUB -----------
+
 async function loadGitHub() {
   const res = await fetch("https://api.github.com/search/repositories?q=stars:>50000&sort=stars");
   const data = await res.json();
@@ -43,7 +43,6 @@ function displayGitHub(repos) {
   });
 }
 
-// ----------- NEWS -----------
 async function loadNews() {
   const res = await fetch("https://gnews.io/api/v4/top-headlines?lang=en&token=5cf6de38844a7202ced9a57226ee4859");
   const data = await res.json();
@@ -66,7 +65,6 @@ function displayNews(articles) {
   });
 }
 
-// ----------- SORT -----------
 function sortData() {
   const source = document.getElementById("source").value;
 
