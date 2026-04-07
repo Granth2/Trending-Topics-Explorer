@@ -36,7 +36,7 @@ function displayGitHub(repos) {
     container.innerHTML += `
       <div class="card">
         <h3>${repo.name}</h3>
-        <p>⭐ ${repo.stargazers_count}</p>
+        <p>${repo.stargazers_count}</p>
         <p>${repo.language || "N/A"}</p>
       </div>
     `;
